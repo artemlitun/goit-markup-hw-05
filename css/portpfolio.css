@@ -1,0 +1,89 @@
+.section {
+  padding-top: 93px;
+  padding-bottom: 93px;
+}
+
+/* Фильтр страницы */
+
+.filter button {
+  background-color: var(--secondary-bg-color);
+  color: var(--primary-text-color);
+  padding: 6px 22px;
+  text-align: center;
+}
+
+.filter button:hover,
+.filter button:focus {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.filter .item + .item {
+  margin-left: 8px;
+}
+
+/* <!-- Портфолио работ -- >  */
+
+.portfolio-title {
+  margin-top: 20px;
+  margin-bottom: 4px;
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--accent-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+
+/* Текст для ховера */
+/* .portfolio-desc {
+  color: var(--secondary-text-color);
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+} */
+/* .portfolio-items a:hover,
+.portfolio-items a:focus {
+  background-color: var(--accent-color);
+  --secondary-text-color: #ffffff;
+} */
+
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+.portfolio-items .item {
+  width: 370px;
+  margin: 15px;
+}
+
+/* .portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-right: -30px;
+  margin-bottom: -30px;
+}
+.portfolio-items .item {
+  flex-basis: calc((100% - 3 * 30px) / 9);
+
+  margin-right: 30px;
+  margin-bottom: 30px;
+} */
