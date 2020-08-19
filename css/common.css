@@ -52,11 +52,19 @@ body {
 }
 
 /* Site nav */
+.site-nav {
+  display: flex;
+  margin-left: 81px;
+}
+
+.site-nav .item + .item {
+  margin-left: 50px;
+}
+
 .site-nav a {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -68,18 +76,59 @@ body {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+
 .site-nav .link.current {
   color: var(--accent-color);
 }
 
-.site-nav {
-  display: flex;
-  margin-left: 81px;
+.site-nav-item-studio::after {
+  display: block;
+  content: "";
+  width: 48px;
+  height: 4px;
+  background-color: var(--accent-color);
+  border-radius: 2px;
+  opacity: 0;
 }
 
-.site-nav .item + .item {
-  margin-left: 50px;
+.site-nav-item-studio::after.current {
+  opacity: 1;
 }
+
+.site-nav-item-portfolio::after {
+  display: block;
+  content: "";
+  width: 78px;
+  height: 4px;
+  background-color: var(--accent-color);
+  /* background-color: var(--primary-bg-color); */
+  border-radius: 2px;
+  opacity: 0;
+}
+.site-nav-item-portfolio::after .link.current {
+  opacity: 1;
+}
+
+.site-nav-item-contacts::after {
+  display: block;
+  content: "";
+  width: 68px;
+  height: 4px;
+  background-color: var(--accent-color);
+  border-radius: 2px;
+  opacity: 0;
+}
+.site-nav-item-contacts::after .current {
+  opacity: 1;
+}
+
+/* .site-nav-link::after {
+  content: "";
+  width: 78px;
+  height: 4px;
+  color: #2196f3;
+  border-radius: 2px;
+} */
 
 /* Main nav */
 
@@ -102,7 +151,7 @@ body {
 }
 
 .nav-contacts a {
-  display: inline-flex;
+  display: flex;
   color: var(--accent-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -110,31 +159,32 @@ body {
   letter-spacing: 0.02em;
 }
 
-.nav-contacts a:hover,
-.nav-contacts a:focus {
+.nav-contacts-link:hover,
+.nav-contacts-link:focus {
   color: var(--accent-color);
 }
 
-.nav-mail::before {
-  content: "";
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  /* background-size: contain; */
-  background-image: url(../images/web-studio/contacts-icons/letter-icon.svg);
+.nav-contacts-link:hover svg {
+  fill: var(--accent-color);
 }
 
-.nav-tel::before {
-  content: "";
+.nav-mail-icon-svg {
   width: 10px;
   height: 15px;
   margin-right: 10px;
-  /* background-size: contain; */
-  background-image: url(../images/web-studio/contacts-icons/phone-icon.svg);
+  fill: #757575;
 }
 
+.nav-tel-icon-svg {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: #757575;
+}
+
+/* Заголовок */
+
 .section-title {
-  /* display: inline-block; */
   margin-top: 0;
   margin-bottom: 50px;
 
@@ -167,6 +217,8 @@ body {
   padding-bottom: 60px; */
 }
 
+/* Адресс */
+
 .footer-adress {
   width: calc((50% - 15px) / 2);
 }
@@ -192,6 +244,9 @@ body {
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.71;
 }
+
+/* Заголовки футера */
+
 .footer-subtitle {
   margin-top: 0;
   margin-bottom: 0;
@@ -200,6 +255,8 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
 }
+
+/* Социальные иконки */
 
 .footer-social {
   display: flex;
@@ -221,31 +278,14 @@ body {
   background-color: var(--accent-color);
 }
 
-.footer-social-link-instagram {
-  background-image: url(../images/web-studio/social-icons/iconswhite/instagram2.svg);
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  background-position: center;
+.footer-social-link-svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--primary-bg-color);
 }
 
-.footer-social-icon-twitter {
-  background-image: url(../images/web-studio/social-icons/iconswhite/twitter1.svg);
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  background-position: center;
-}
-.footer-social-icon-facebook {
-  background-image: url(../images/web-studio/social-icons/iconswhite/facebook1.svg);
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  background-position: center;
-}
-.footer-social-icon-linkedin {
-  background-image: url(../images/web-studio/social-icons/iconswhite/linkedin2.svg);
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  background-position: center;
-}
+/* Форма подписаться */
+
 .button {
   display: inline-flex;
   align-items: center;

@@ -29,25 +29,36 @@
           <span class="accent">Web</span>Studio
         </a>
         <ul class="site-nav list">
-          <li class="item">
-            <a class="link current" href="#">Студия</a>
+          <li class="site-nav-item-studio item">
+            <a class="site-nav-link current link" href="#">Студия</a>
           </li>
-          <li class="item">
-            <a class="link" href="./portfolio.html">Портфолио</a>
+
+          <li class="site-nav-item-portfolio item">
+            <a class="site-nav-link link" href="./portfolio.html">Портфолио</a>
           </li>
-          <li class="item">
-            <a class="link" href="#">Контакты</a>
+          <li class="site-nav-item-contacts item">
+            <a class="site-nav-link link" href="#">Контакты</a>
           </li>
         </ul>
         <ul class="nav-contacts list">
           <li class="item">
-            <a class="nav-mail link" href="info@devstudio.com"
-              >info@devstudio.com</a
+            <a class="nav-contacts-link link" href="info@devstudio.com">
+              <svg class="nav-mail-icon-svg">
+                <use
+                  href="./images/web-studio/icons/sprite.svg#icon-letter-icon"
+                ></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
           <li class="item">
-            <a class="nav-tel link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
+            <a class="nav-contacts-link link" href="tel:+380961111111"
+              ><svg class="nav-tel-icon-svg">
+                <use
+                  href="./images/web-studio/icons/sprite.svg#icon-phone-icon"
+                ></use>
+              </svg>
+              +38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -73,89 +84,122 @@
           </h1>
           <a class="button link" href="#">Заказать услугу</a>
         </div>
+        <div class="backdrop is-hidden">
+          <div class="hero-modal is-hidden">
+            <button class="closed-form">
+              <svg class="closed-form-svg">
+                <use
+                  href="./images/web-studio/icons/sprite.svg#icon-Vector"
+                ></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </section>
 
       <!-- Секция преимущества -->
-      <section class="section">
+
+      <section class="section features container">
         <!-- <h2>Наши преимущества</h2> -->
-        <div class="container">
-          <ul class="features-items list">
-            <li class="item">
-              <div class="features-icons-container icon-1"></div>
-              <h3 class="features-subtitle">Внимание к деталям</h3>
-              <p class="features-text">
-                Идейные соображения, а также начало повседневной работы по
-                формированию позиции.
-              </p>
-            </li>
-            <li class="item">
-              <div class="features-icons-container icon-2"></div>
-              <h3 class="features-subtitle">Пунктуальность</h3>
-              <p class="features-text">
-                Задача организации, в особенности же рамки и место обучения
-                кадров влечет за собой.
-              </p>
-            </li>
-            <li class="item">
-              <div class="features-icons-container icon-3"></div>
-              <h3 class="features-subtitle">Планирование</h3>
-              <p class="features-text">
-                Равным образом консультация с широким активом в значительной
-                степени обуславливает.
-              </p>
-            </li>
-            <li class="item">
-              <div class="features-icons-container icon-4"></div>
-              <h3 class="features-subtitle">Современные технологии</h3>
-              <p class="features-text">
-                Значимость этих проблем настолько очевидна, что реализация
-                плановых заданий.
-              </p>
-            </li>
-          </ul>
-        </div>
+        <ul class="features-items list">
+          <li class="item">
+            <div class="features-icons-container icon-1">
+              <svg class="features-icon-svg-icon-1">
+                <use
+                  href="./images/web-studio/icons/sprite.svg#icon-feature-icon-1"
+                ></use>
+              </svg>
+            </div>
+            <h3 class="features-subtitle">Внимание к деталям</h3>
+            <p class="features-text">
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
+          <li class="item">
+            <div class="features-icons-container icon-2">
+              <svg class="features-icon-svg-icon-2">
+                <use
+                  href="./images/web-studio/icons/sprite.svg#icon-feature-icon-2"
+                ></use>
+              </svg>
+            </div>
+            <h3 class="features-subtitle">Пунктуальность</h3>
+            <p class="features-text">
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
+          <li class="item">
+            <div class="features-icons-container icon-2">
+              <svg class="features-icon-svg-icon-3">
+                <use
+                  href="./images/web-studio/icons/sprite.svg#icon-feature-icon-3"
+                ></use>
+              </svg>
+            </div>
+            <h3 class="features-subtitle">Планирование</h3>
+            <p class="features-text">
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+          <li class="item">
+            <div class="features-icons-container icon-2">
+              <svg class="features-icon-svg-icon-4">
+                <use
+                  href="./images/web-studio/icons/sprite.svg#icon-feature-icon-4"
+                ></use>
+              </svg>
+            </div>
+            <h3 class="features-subtitle">Современные технологии</h3>
+            <p class="features-text">
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
+        </ul>
       </section>
 
       <!-- Секция чем мы занимаемся -->
-      <section class="section">
-        <div class="container">
-          <h2 class="section-title">Чем мы занимаемся</h2>
-          <ul class="about-items list">
-            <li class="item">
-              <a class="link" href="#"
-                ><img
-                  src="./images/web-studio/prodacts/optimized/product-img-1.jpg"
-                  alt="Экран ноутбука"
-                  width="370"
-                  height="294"
-                />
-                <h3 class="subtitle">Десктопные приложения</h3>
-              </a>
-            </li>
-            <li class="item">
-              <a class="link" href="#"
-                ><img
-                  src="./images/web-studio/prodacts/optimized/product-img-2.jpg"
-                  alt="Смартфон"
-                  width="370"
-                  height="294"
-                />
-                <h3 class="subtitle">Мобильные приложения</h3>
-              </a>
-            </li>
-            <li class="item">
-              <a class="link" href="#"
-                ><img
-                  src="./images/web-studio/prodacts/optimized/product-img-3.jpg"
-                  alt="Монитор компьютера"
-                  width="370"
-                  height="294"
-                />
-                <h3 class="subtitle">Дизайнерские решения</h3>
-              </a>
-            </li>
-          </ul>
-        </div>
+
+      <section class="section about container">
+        <h2 class="section-title">Чем мы занимаемся</h2>
+        <ul class="about-items list">
+          <li class="about-item-box">
+            <a class="link" href="#"
+              ><img
+                src="./images/web-studio/prodacts/optimized/product-img-1.jpg"
+                alt="Экран ноутбука"
+                width="370"
+                height="294"
+              />
+              <h3 class="about-items-subtitle">Десктопные приложения</h3>
+            </a>
+          </li>
+          <li class="about-item-box">
+            <a class="link" href="#">
+              <img
+                src="./images/web-studio/prodacts/optimized/product-img-2.jpg"
+                alt="Смартфон"
+                width="370"
+                height="294"
+              />
+              <h3 class="about-items-subtitle">Мобильные приложения</h3>
+            </a>
+          </li>
+          <li class="about-item-box">
+            <a class="link" href="#"
+              ><img
+                src="./images/web-studio/prodacts/optimized/product-img-3.jpg"
+                alt="Монитор компьютера"
+                width="370"
+                height="294"
+              />
+              <h3 class="about-items-subtitle">Дизайнерские решения</h3>
+            </a>
+          </li>
+        </ul>
       </section>
       <!-- Секция Наша команда -->
 
@@ -185,7 +229,7 @@
                     >
                       <svg class="team-social-link-svg">
                         <use
-                          href="./images/web-studio/social-icons/sprite.svg#icon-instagram"
+                          href="./images/web-studio/icons/sprite.svg#icon-instagram"
                         ></use>
                       </svg>
                     </a>
@@ -199,7 +243,7 @@
                     >
                       <svg class="team-social-link-svg">
                         <use
-                          href="./images/web-studio/social-icons/sprite.svg#icon-twitter"
+                          href="./images/web-studio/icons/sprite.svg#icon-twitter"
                         ></use></svg
                     ></a>
                   </li>
@@ -212,7 +256,7 @@
                     >
                       <svg class="team-social-link-svg">
                         <use
-                          href="./images/web-studio/social-icons/sprite.svg#icon-facebook"
+                          href="./images/web-studio/icons/sprite.svg#icon-facebook"
                         ></use>
                       </svg>
                     </a>
@@ -226,7 +270,7 @@
                     >
                       <svg class="team-social-link-svg">
                         <use
-                          href="./images/web-studio/social-icons/sprite.svg#icon-linkedin"
+                          href="./images/web-studio/icons/sprite.svg#icon-linkedin"
                         ></use>
                       </svg>
                     </a>
@@ -255,7 +299,7 @@
                     >
                       <svg class="team-social-link-svg">
                         <use
-                          href="./images/web-studio/social-icons/sprite.svg#icon-instagram"
+                          href="./images/web-studio/icons/sprite.svg#icon-instagram"
                         ></use>
                       </svg>
                     </a>
@@ -269,7 +313,7 @@
                     >
                       <svg class="team-social-link-svg">
                         <use
-                          href="./images/web-studio/social-icons/sprite.svg#icon-twitter"
+                          href="./images/web-studio/icons/sprite.svg#icon-twitter"
                         ></use></svg
                     ></a>
                   </li>
@@ -282,7 +326,7 @@
                     >
                       <svg class="team-social-link-svg">
                         <use
-                          href="./images/web-studio/social-icons/sprite.svg#icon-facebook"
+                          href="./images/web-studio/icons/sprite.svg#icon-facebook"
                         ></use>
                       </svg>
                     </a>
@@ -296,7 +340,7 @@
                     >
                       <svg class="team-social-link-svg">
                         <use
-                          href="./images/web-studio/social-icons/sprite.svg#icon-linkedin"
+                          href="./images/web-studio/icons/sprite.svg#icon-linkedin"
                         ></use>
                       </svg>
                     </a>
@@ -326,7 +370,7 @@
                     >
                       <svg class="team-social-link-svg">
                         <use
-                          href="./images/web-studio/social-icons/sprite.svg#icon-instagram"
+                          href="./images/web-studio/icons/sprite.svg#icon-instagram"
                         ></use>
                       </svg>
                     </a>
@@ -340,7 +384,7 @@
                     >
                       <svg class="team-social-link-svg">
                         <use
-                          href="./images/web-studio/social-icons/sprite.svg#icon-twitter"
+                          href="./images/web-studio/icons/sprite.svg#icon-twitter"
                         ></use></svg
                     ></a>
                   </li>
@@ -353,7 +397,7 @@
                     >
                       <svg class="team-social-link-svg">
                         <use
-                          href="./images/web-studio/social-icons/sprite.svg#icon-facebook"
+                          href="./images/web-studio/icons/sprite.svg#icon-facebook"
                         ></use>
                       </svg>
                     </a>
@@ -367,7 +411,7 @@
                     >
                       <svg class="team-social-link-svg">
                         <use
-                          href="./images/web-studio/social-icons/sprite.svg#icon-linkedin"
+                          href="./images/web-studio/icons/sprite.svg#icon-linkedin"
                         ></use>
                       </svg>
                     </a>
@@ -399,7 +443,7 @@
                     >
                       <svg class="team-social-link-svg">
                         <use
-                          href="./images/web-studio/social-icons/sprite.svg#icon-instagram"
+                          href="./images/web-studio/icons/sprite.svg#icon-instagram"
                         ></use>
                       </svg>
                     </a>
@@ -413,7 +457,7 @@
                     >
                       <svg class="team-social-link-svg">
                         <use
-                          href="./images/web-studio/social-icons/sprite.svg#icon-twitter"
+                          href="./images/web-studio/icons/sprite.svg#icon-twitter"
                         ></use></svg
                     ></a>
                   </li>
@@ -426,7 +470,7 @@
                     >
                       <svg class="team-social-link-svg">
                         <use
-                          href="./images/web-studio/social-icons/sprite.svg#icon-facebook"
+                          href="./images/web-studio/icons/sprite.svg#icon-facebook"
                         ></use>
                       </svg>
                     </a>
@@ -440,7 +484,7 @@
                     >
                       <svg class="team-social-link-svg">
                         <use
-                          href="./images/web-studio/social-icons/sprite.svg#icon-linkedin"
+                          href="./images/web-studio/icons/sprite.svg#icon-linkedin"
                         ></use>
                       </svg>
                     </a>
@@ -453,92 +497,89 @@
       </section>
       <!-- Секция постоянные клиенты -->
 
-      <section class="section clients">
-        <div class="container">
-          <h2 class="section-title">Постоянные клиенты</h2>
-          <ul class="clients-items list">
-            <li class="item">
-              <a
-                class="clients-logo-link clients-logo-icon-1"
-                href="#"
-                aria-label="Ссылка на сайт компании"
-              >
-                <svg class="clients-logo-link-svg logo-1">
-                  <use
-                    href="./images/web-studio/clients/sprite.svg#icon-clients-logo-1"
-                  ></use>
-                </svg>
-              </a>
-              <!-- Для иконок сделать рамку с ссылкой -->
-            </li>
+      <section class="section clients container">
+        <h2 class="section-title">Постоянные клиенты</h2>
+        <ul class="clients-items list">
+          <li class="item">
+            <a
+              class="clients-logo-link"
+              href="#"
+              aria-label="Ссылка на сайт компании"
+            >
+              <svg class="clients-logo-link-svg-1">
+                <use
+                  href="./images/web-studio/icons/sprite.svg#icon-clients-logo-1"
+                ></use>
+              </svg>
+            </a>
+          </li>
 
-            <li class="item">
-              <a
-                class="clients-logo-link clients-logo-icon-2"
-                href="#"
-                aria-label="Ссылка на сайт компании"
-              >
-                <svg class="clients-logo-link-svg logo-1">
-                  <use
-                    href="./images/web-studio/clients/sprite.svg#icon-clients-logo-2"
-                  ></use>
-                </svg>
-              </a>
-            </li>
-            <li class="item">
-              <a
-                class="clients-logo-link clients-logo-icon-3"
-                href="#"
-                aria-label="Ссылка на сайт компании"
-              >
-                <svg class="clients-logo-link-svg logo-3">
-                  <use
-                    href="./images/web-studio/clients/sprite.svg#icon-clients-logo-3"
-                  ></use>
-                </svg>
-              </a>
-            </li>
-            <li class="item">
-              <a
-                class="clients-logo-link clients-logo-icon-4"
-                href="#"
-                aria-label="Ссылка на сайт компании"
-              >
-                <svg class="clients-logo-link-svg logo-4">
-                  <use
-                    href="./images/web-studio/clients/sprite.svg#icon-clients-logo-4"
-                  ></use>
-                </svg>
-              </a>
-            </li>
-            <li class="item">
-              <a
-                class="clients-logo-link clients-logo-icon-5"
-                href="#"
-                aria-label="Ссылка на сайт компании"
-              >
-                <svg class="clients-logo-link-svg logo-5">
-                  <use
-                    href="./images/web-studio/clients/sprite.svg#icon-clients-logo-5"
-                  ></use>
-                </svg>
-              </a>
-            </li>
-            <li class="item">
-              <a
-                class="clients-logo-link clients-logo-icon-6"
-                href="#"
-                aria-label="Ссылка на сайт компании"
-              >
-                <svg class="clients-logo-link-svg logo-6">
-                  <use
-                    href="./images/web-studio/clients/sprite.svg#icon-clients-logo-6"
-                  ></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
+          <li class="item">
+            <a
+              class="clients-logo-link"
+              href="#"
+              aria-label="Ссылка на сайт компании"
+            >
+              <svg class="clients-logo-link-svg-2">
+                <use
+                  href="./images/web-studio/icons/sprite.svg#icon-clients-logo-2"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li class="item">
+            <a
+              class="clients-logo-link clients-logo-icon-3"
+              href="#"
+              aria-label="Ссылка на сайт компании"
+            >
+              <svg class="clients-logo-link-svg-3">
+                <use
+                  href="./images/web-studio/icons/sprite.svg#icon-clients-logo-3"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li class="item">
+            <a
+              class="clients-logo-link clients-logo-icon-4"
+              href="#"
+              aria-label="Ссылка на сайт компании"
+            >
+              <svg class="clients-logo-link-svg-4">
+                <use
+                  href="./images/web-studio/icons/sprite.svg#icon-clients-logo-4"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li class="item">
+            <a
+              class="clients-logo-link"
+              href="#"
+              aria-label="Ссылка на сайт компании"
+            >
+              <svg class="clients-logo-link-svg-5">
+                <use
+                  href="./images/web-studio/icons/sprite.svg#icon-clients-logo-5"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li class="item">
+            <a
+              class="clients-logo-link"
+              href="#"
+              aria-label="Ссылка на сайт компании"
+            >
+              <svg class="clients-logo-link-svg-6">
+                <use
+                  href="./images/web-studio/icons/sprite.svg#icon-clients-logo-6"
+                ></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </section>
     </main>
     <!-- Подвал сайта -->
@@ -575,11 +616,11 @@
                 aria-label="ссылка на инстаграм"
                 target="_blank"
               >
-                <!-- <svg>
+                <svg class="footer-social-link-svg">
                   <use
-                    href="../goit-markup-hw-04/images/web-studio/social-icons/iconswhite/sprite2.svg#icon-instagram2"
+                    href="./images/web-studio/icons/sprite.svg#icon-instagram"
                   ></use>
-                </svg> -->
+                </svg>
               </a>
             </li>
             <li class="social-icon">
@@ -589,11 +630,11 @@
                 aria-label="ссылка на твитер"
                 target="_blank"
               >
-                <!-- <svg>
+                <svg class="footer-social-link-svg">
                   <use
-                    href="../goit-markup-hw-04/images/web-studio/social-icons/iconswhite/sprite2.svg#icon-twitter2"
+                    href="./images/web-studio/icons/sprite.svg#icon-twitter"
                   ></use>
-                </svg> -->
+                </svg>
               </a>
             </li>
             <li class="social-icon">
@@ -603,11 +644,11 @@
                 aria-label="ссылка на фейсбук"
                 target="_blank"
               >
-                <!-- <svg>
-                <use
-                  href="../goit-markup-hw-04/images/web-studio/social-icons/iconswhite/sprite2.svg#icon-facebook2"
-                ></use>
-              </svg> -->
+                <svg class="footer-social-link-svg">
+                  <use
+                    href="./images/web-studio/icons/sprite.svg#icon-facebook"
+                  ></use>
+                </svg>
               </a>
             </li>
             <li class="social-icon">
@@ -617,11 +658,11 @@
                 aria-label="ссылка на линкедин"
                 target="_blank"
               >
-                <!-- <svg>
-                <use
-                  href="../goit-markup-hw-04/images/web-studio/social-icons/iconswhite/sprite2.svg#icon-linkedin2"
-                ></use>
-              </svg> -->
+                <svg class="footer-social-link-svg">
+                  <use
+                    href="./images/web-studio/icons/sprite.svg#icon-linkedin"
+                  ></use>
+                </svg>
               </a>
             </li>
           </ul>
