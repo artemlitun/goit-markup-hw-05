@@ -51,13 +51,13 @@
         }
       ],
       "properties": {
-        "order": 32,
-        "id": 16,
+        "order": 55,
+        "id": 18,
         "name": "clients-logo-1",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 4,
+      "setId": 0,
       "iconIdx": 0
     },
     {
@@ -280,13 +280,13 @@
         }
       ],
       "properties": {
-        "order": 34,
-        "id": 15,
+        "order": 56,
+        "id": 17,
         "name": "clients-logo-2",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 4,
+      "setId": 0,
       "iconIdx": 1
     },
     {
@@ -439,13 +439,13 @@
         }
       ],
       "properties": {
-        "order": 36,
-        "id": 14,
+        "order": 57,
+        "id": 16,
         "name": "clients-logo-3",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 4,
+      "setId": 0,
       "iconIdx": 2
     },
     {
@@ -508,13 +508,13 @@
         }
       ],
       "properties": {
-        "order": 38,
-        "id": 13,
+        "order": 58,
+        "id": 15,
         "name": "clients-logo-4",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 4,
+      "setId": 0,
       "iconIdx": 3
     },
     {
@@ -637,13 +637,13 @@
         }
       ],
       "properties": {
-        "order": 40,
-        "id": 12,
+        "order": 59,
+        "id": 14,
         "name": "clients-logo-5",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 4,
+      "setId": 0,
       "iconIdx": 4
     },
     {
@@ -846,13 +846,13 @@
         }
       ],
       "properties": {
-        "order": 41,
-        "id": 11,
+        "order": 60,
+        "id": 13,
         "name": "clients-logo-6",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 4,
+      "setId": 0,
       "iconIdx": 5
     },
     {
@@ -885,13 +885,13 @@
         }
       ],
       "properties": {
-        "order": 42,
-        "id": 10,
+        "order": 62,
+        "id": 12,
         "name": "facebook",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 4,
+      "setId": 0,
       "iconIdx": 6
     },
     {
@@ -934,13 +934,13 @@
         }
       ],
       "properties": {
-        "order": 43,
-        "id": 9,
+        "order": 61,
+        "id": 11,
         "name": "feature-icon-1",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 4,
+      "setId": 0,
       "iconIdx": 7
     },
     {
@@ -1003,13 +1003,13 @@
         }
       ],
       "properties": {
-        "order": 44,
-        "id": 8,
+        "order": 63,
+        "id": 10,
         "name": "feature-icon-2",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 4,
+      "setId": 0,
       "iconIdx": 8
     },
     {
@@ -1082,13 +1082,13 @@
         }
       ],
       "properties": {
-        "order": 45,
-        "id": 7,
+        "order": 64,
+        "id": 9,
         "name": "feature-icon-3",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 4,
+      "setId": 0,
       "iconIdx": 9
     },
     {
@@ -1321,13 +1321,13 @@
         }
       ],
       "properties": {
-        "order": 47,
-        "id": 6,
+        "order": 65,
+        "id": 8,
         "name": "feature-icon-4",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 4,
+      "setId": 0,
       "iconIdx": 10
     },
     {
@@ -1380,14 +1380,47 @@
         }
       ],
       "properties": {
-        "order": 46,
-        "id": 5,
+        "order": 66,
+        "id": 7,
         "name": "instagram",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 4,
+      "setId": 0,
       "iconIdx": 11
+    },
+    {
+      "icon": {
+        "paths": [
+          "M1024 103.132l-103.132-103.132-408.868 408.868-408.868-408.868-103.132 103.132 408.868 408.868-408.868 408.868 103.132 103.132 408.868-408.868 408.868 408.868 103.132-103.132-408.868-408.868 408.868-408.868z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "krestik"
+        ],
+        "colorPermutations": {
+          "11171171171175177184125525525513315024313333331": [
+            {}
+          ]
+        }
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 69,
+        "id": 6,
+        "name": "krestik",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 0,
+      "iconIdx": 12
     },
     {
       "icon": {
@@ -1429,14 +1462,14 @@
         }
       ],
       "properties": {
-        "order": 48,
-        "id": 4,
+        "order": 68,
+        "id": 5,
         "name": "letter-icon",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 4,
-      "iconIdx": 12
+      "setId": 0,
+      "iconIdx": 13
     },
     {
       "icon": {
@@ -1488,14 +1521,14 @@
         }
       ],
       "properties": {
-        "order": 33,
-        "id": 3,
+        "order": 70,
+        "id": 4,
         "name": "linkedin",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 4,
-      "iconIdx": 13
+      "setId": 0,
+      "iconIdx": 14
     },
     {
       "icon": {
@@ -1527,14 +1560,53 @@
         }
       ],
       "properties": {
-        "order": 35,
-        "id": 2,
+        "order": 71,
+        "id": 3,
         "name": "phone-icon",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 4,
-      "iconIdx": 14
+      "setId": 0,
+      "iconIdx": 15
+    },
+    {
+      "icon": {
+        "paths": [
+          "M928 128h-831.999c-52.938 0-96.001 43.063-96.001 96.001v575.999c0 52.934 43.063 96 96.001 96h831.999c52.934 0 96-43.066 96-96v-575.999c0-52.938-43.066-96.001-96-96.001zM928 192c4.346 0 8.48 0.902 12.262 2.477l-428.262 371.18-428.267-371.18c3.782-1.573 7.917-2.477 12.266-2.477h832.001zM928 832h-831.999c-17.656 0-32.001-14.342-32.001-32v-537.907l427.031 370.093c6.032 5.217 13.5 7.812 20.969 7.812s14.937-2.593 20.969-7.812l427.031-370.093v537.907c0 17.658-14.342 32-32 32z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(117, 117, 117)"
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "pismo"
+        ],
+        "colorPermutations": {
+          "11171171171175177184125525525513315024313333331": [
+            {
+              "f": 2
+            }
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "rgb(117, 117, 117)"
+        }
+      ],
+      "properties": {
+        "order": 72,
+        "id": 2,
+        "name": "pismo",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 0,
+      "iconIdx": 16
     },
     {
       "icon": {
@@ -1566,14 +1638,14 @@
         }
       ],
       "properties": {
-        "order": 49,
+        "order": 73,
         "id": 1,
         "name": "samoletik-icon",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 4,
-      "iconIdx": 15
+      "setId": 0,
+      "iconIdx": 17
     },
     {
       "icon": {
@@ -1605,14 +1677,14 @@
         }
       ],
       "properties": {
-        "order": 39,
+        "order": 74,
         "id": 0,
         "name": "twitter",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 4,
-      "iconIdx": 16
+      "setId": 0,
+      "iconIdx": 18
     }
   ],
   "height": 1024,
