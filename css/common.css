@@ -93,7 +93,7 @@ body {
 }
 
 .site-nav-link::after {
-  display: block;
+  display: inline-flex;
   position: absolute;
 
   content: "";
