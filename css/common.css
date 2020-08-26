@@ -100,7 +100,7 @@ body {
   bottom: 0;
   right: 0;
   width: 48px;
-  /* width: inherit; */
+  width: -webkit-fill-available;
   height: 4px;
   background-color: var(--accent-color);
   border-radius: 2px;
